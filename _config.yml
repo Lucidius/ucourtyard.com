@@ -2,3 +2,6 @@ destination: ./_site
 auto:        false
 lsi:         false
 server_port: 3000
+safe: true
+lsi: false
+pygments: true

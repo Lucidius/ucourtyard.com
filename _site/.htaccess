@@ -1,5 +1,0 @@
-Redirect permanent /Home.html /index.html
-Redirect permanent /Apply.html /contact/
-Redirect permanent /Features.html /features/
-Redirect permanent /Gallery.html /gallery/
-Redirect permanent /Location.html /location/
