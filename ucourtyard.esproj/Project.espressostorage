@@ -16,7 +16,7 @@
 			<key>ESPublishServerStateMinimumUpdateTimeDifferenceKey</key>
 			<real>0.0</real>
 			<key>ESPublishServerStateModeKey</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>ESPublishServerStateNameKey</key>
 			<string>Lucidius</string>
 			<key>ESPublishServerStateOptionsKey</key>
@@ -50,17 +50,31 @@
 					<integer>1073741824</integer>
 					<key>/home/nate/sites/ucourtyard/contact</key>
 					<integer>3221225472</integer>
+					<key>/home/nate/sites/ucourtyard/css</key>
+					<integer>3221225472</integer>
 					<key>/home/nate/sites/ucourtyard/features</key>
 					<integer>3221225472</integer>
 					<key>/home/nate/sites/ucourtyard/gallery</key>
 					<integer>3221225472</integer>
 					<key>/home/nate/sites/ucourtyard/gallery/index.html</key>
 					<integer>1073741824</integer>
+					<key>/home/nate/sites/ucourtyard/google7fcd84e24ebd3ebb.html</key>
+					<integer>1073741824</integer>
+					<key>/home/nate/sites/ucourtyard/i</key>
+					<integer>3221225472</integer>
 					<key>/home/nate/sites/ucourtyard/index.html</key>
 					<integer>1073741824</integer>
+					<key>/home/nate/sites/ucourtyard/js</key>
+					<integer>3221225472</integer>
 					<key>/home/nate/sites/ucourtyard/location</key>
 					<integer>3221225472</integer>
+					<key>/home/nate/sites/ucourtyard/log</key>
+					<integer>3221225472</integer>
+					<key>/home/nate/sites/ucourtyard/sitemap.xml</key>
+					<integer>1073741824</integer>
 					<key>/home/nate/sites/ucourtyard/tentants</key>
+					<integer>1073741824</integer>
+					<key>/home/nate/sites/ucourtyard/y_key_642f2f2affa6fe37.html</key>
 					<integer>1073741824</integer>
 				</dict>
 			</dict>
