@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 99%;
+}
+body {
+	color: #000;
+	background: #fff;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #630404;
+}
+
+h2 {margin-bottom: 10px;}
+
+#top {
+	background-image: url(../i/bg/top.gif);
+	height: 22px;
+}
+
+.left {float: left;}
+.right {float: right;}
+
+form {
+	width: 530px;
+}
+label {
+	font-size: 18px;
+	float: left;
+	width: 200px;
+}
+
+input, textarea {
+	width: 60%;
+	border: 2px solid #67972c;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #555;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3px;
+	clear: right;
+}
+
+input.btn {
+	float: right;
+	width: 100px;
+	border: 0px;
+	background: #67972c;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #fff;
+	padding: 5px 7px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+#container {
+	width: 990px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+
+#header {
+	margin-bottom: 25px;
+	clear: both;
+}
+
+#header #logo {
+	width: 300px;
+	height: 98px;
+	float: left;
+	margin-left: 10px;
+}
+
+#sidebar {
+	width: 350px;
+	float: left;
+}
+
+#sidebar #testimonial {
+	width: 344px;
+}
+
+#sidebar #photo {
+	width: 344px;
+}
+#sidebar #photo .top {
+	background: url(../i/bg/sidebar-gray-top.gif);
+	height: 25px;
+}
+
+#sidebar #photo .middle {
+	background: url(../i/bg/sidebar-gray-middle.gif) repeat-y;
+}
+
+#sidebar #photo .bottom {
+	background: url(../i/bg/sidebar-gray-bottom.gif);
+	height: 25px;
+	margin-bottom: 25px;
+}
+
+#sidebar #photo img {
+	margin: 0 20px;
+}
+
+#sidebar #photo h1 {
+	padding-left: 21px;
+}
+
+#testimonial {
+	width: 344px;
+	color: #4e4e4e;
+}
+
+#testimonial .quote {
+	padding-right: 25px;
+	color: #fff;
+	padding-left: 25px;
+	line-height: 20px;
+}
+
+#testimonial .name {
+	color: #666;
+	margin-left: 30px;
+}
+
+#testimonial .top {
+	background: url(../i/bg/testimonial-top.gif);
+	height: 20px;
+}
+
+#testimonial .center {
+	background: url(../i/bg/testimonial-center.gif) repeat-y;
+}
+
+#testimonial .bottom {
+	background: url(../i/bg/testimonial-bottom.gif);
+	height: 47px;
+}
+
+#sidebar #price .top {
+	background: url(../i/bg/sidebar-top.gif);
+	height: 20px;
+}
+#sidebar #price .middle {
+	background: url(../i/bg/sidebar-middle.gif) repeat-y;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #fff;
+	line-height: 20px;
+}
+#sidebar #price .bottom {
+	background: url(../i/bg/sidebar-bottom.gif);
+	height: 23px;
+}
+
+#sidebar #price h1 {
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+#content {
+	width: 625px;
+	float: left;
+	margin-left: 10px;
+	color: #333;
+}
+
+#content #text {
+	padding-right: 25px;
+	padding-left: 25px;
+	line-height: 20px;
+}
+
+#content #text p {
+	margin-bottom: 10px;
+}
+
+#content #text a {
+	color: #630404;
+}
+
+#content #text ul {
+	padding-bottom: 25px;
+}
+
+#content #text li {
+	list-style-type: square;
+	list-style-position: outside;
+	margin-left: 25px;
+	padding-bottom: 5px;
+}
+
+#content #text img {
+	float: right;
+}
+
+#gallery {
+	width: 960px;
+	margin: auto;
+}
+#gallery img {
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: 22px;
+	border: 12px solid #f1f1f1;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#content .top {
+	background: url(../i/bg/content-top.gif);
+	height: 20px;
+}
+
+#content .center {
+	background: url(../i/bg/content-middle.gif) repeat-y;
+}
+
+#content .bottom {
+	background: url(../i/bg/content-bottom.gif);
+	height: 25px;
+	margin-top: -10px;
+}
+
+#map {
+	padding-right: 25px;
+	padding-left: 20px;
+}
+.push {
+	height: 50px;
+	clear: both;
+}
+
+#footer {
+	background-image: url(../i/bg/footer.gif);
+	height: 50px;
+	font: 13px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#footer .text {
+	width: 960px;
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 28px;
+}
+
+.tbmain{ 
+  background: #f1f1f1 !important; 
+  height:100%;
+}
+td.left {
+  color: #555 !important; 
+}
+span.required{
+  font-size: 13px !important;
+  color: red !important;
+}  
+
+
+#header .nav {
+	width: 620px;
+	height: 58px;
+	background: url(../i/bg/nav.gif) no-repeat;
+	position: relative;
+	top: 25px;
+	left: 50px;
+	float: left;
+}
+
+.nav li {
+	display: inline;
+}
+.nav li a:link, .nav li a:visited {
+	position: absolute;
+	top: 0;
+	height: 58px;
+	text-indent: -9000px;
+	overflow: hidden;
+	z-index: 10;
+}
+	.nav .home a:link, .nav .home a:visited {
+		width: 130px;
+	}
+	.nav .home a:hover, .nav .home a:focus {
+		background: url(../i/bg/nav.gif) no-repeat 0px -58px;
+	}
+	.nav .home a:active {
+		background: url(../i/bg/../i/bg/nav.gif) no-repeat 0px -115px;
+	}
+	.current-home .home a:link, .current-home .home a:visited {
+		background: url(../i/bg/nav.gif) no-repeat 0px -173px;
+		cursor: default;
+	}
+	.nav-home, .nav-home-click {
+		position: absolute;
+		top: 0;
+		left: 0px;
+		width: 130px;
+		height: 58px;
+		background: url(../i/bg/nav.gif) no-repeat 0px -58px;
+	}
+	.nav-home-click {
+		background: url(../i/bg/nav.gif) no-repeat 0px -115px;
+	}
+
+
+
+	.nav .features a:link, .nav .features a:visited {
+		left: 130px;
+		width: 120px;
+	}
+	.nav .features a:hover, .nav .features a:focus {
+		background: url(../i/bg/nav.gif) no-repeat -130px -58px;
+	}
+	.nav .features a:active {
+		background: url(../i/bg/nav.gif) no-repeat -130px -115px;
+	}
+	.current-features .features a:link, .current-features .features a:visited {
+		background: url(../i/bg/nav.gif) no-repeat -130px -173px;
+		cursor: default;
+	}
+	.nav-features, .nav-features-click {
+		position: absolute;
+		top: 0;
+		left: 130px;
+		width: 120px;
+		height: 58px;
+		background: url(../i/bg/nav.gif) no-repeat -130px -58px;
+	}
+	.nav-features-click {
+		background: url(../i/bg/nav.gif) no-repeat -130px -115px;
+	}
+
+
+
+
+	.nav .gallery a:link, .nav .gallery a:visited {
+		left: 250px;
+		width: 120px;
+	}
+	.nav .gallery a:hover, .nav .gallery a:focus {
+		background: url(../i/bg/nav.gif) no-repeat -250px -58px;
+	}
+	.nav .gallery a:active {
+		background: url(../i/bg/nav.gif) no-repeat -250px -115px;
+	}
+	.current-gallery .gallery a:link, .current-gallery .gallery a:visited {
+		background: url(../i/bg/nav.gif) no-repeat -250px -173px;
+		cursor: default;
+	}
+	.nav-gallery, .nav-gallery-click {
+		position: absolute;
+		top: 0;
+		left: 250px;
+		width: 120px;
+		height: 58px;
+		background: url(../i/bg/nav.gif) no-repeat -250px -58px;
+	}
+	.nav-gallery-click {
+		background: url(../i/bg/nav.gif) no-repeat -250px -115px;
+	}
+
+
+	
+
+	.nav .location a:link, .nav .location a:visited {
+		left: 370px;
+		width: 120px;
+	}
+	.nav .location a:hover, .nav .location a:focus {
+		background: url(../i/bg/nav.gif) no-repeat -370px -58px;
+	}
+	.nav .location a:active {
+		background: url(../i/bg/nav.gif) no-repeat -370px -115px;
+	}
+	.current-location .location a:link, .current-location .location a:visited {
+		background: url(../i/bg/nav.gif) no-repeat -370px -173px;
+		cursor: default;
+	}
+	.nav-location, .nav-location-click {
+		position: absolute;
+		top: 0;
+		left: 370px;
+		width: 120px;
+		height: 58px;
+		background: url(../i/bg/nav.gif) no-repeat -370px -58px;
+	}
+	.nav-location-click {
+		background: url(../i/bg/nav.gif) no-repeat -370px -115px;
+	}
+
+
+
+
+	.nav .contact a:link, .nav .contact a:visited {
+		left: 490px;
+		width: 130px;
+	}
+	.nav .contact a:hover, .nav .contact a:focus {
+		background: url(../i/bg/nav.gif) no-repeat -490px -58px;
+	}
+	.nav .contact a:active {
+		background: url(../i/bg/nav.gif) no-repeat -490px -115px;
+	}
+	.current-contact .contact a:link, .current-contact .contact a:visited {
+		background: url(../i/bg/nav.gif) no-repeat -490px -173px;
+		cursor: default;
+	}
+	.nav-contact, .nav-contact-click {
+		position: absolute;
+		top: 0;
+		left: 490px;
+		width: 130px;
+		height: 58px;
+		background: url(../i/bg/nav.gif) no-repeat -490px -58px;
+	}
+	.nav-contact-click {
+		background: url(../i/bg/nav.gif) no-repeat -490px -115px;
+	}
+/* @group Fixes and hacks */
+.clear {
+	clear: both;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* @end */

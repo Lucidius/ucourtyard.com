@@ -1,0 +1,11 @@
+.clearfix {height:1px;}
+.push {clear: both;}
+
+#testimonial .center, 
+#content .center, 
+#sidebar #photo .middle,
+#price .middle {
+	height: 1%;
+}
+
+#gallery {clear: both;}
