@@ -26,42 +26,83 @@ h2 {margin-bottom: 10px;}
 .left {float: left;}
 .right {float: right;}
 
-form {
-	width: 530px;
-}
 label {
-	font-size: 18px;
-	float: left;
-	width: 200px;
-}
+  font-size: 16px;
+  float: left;
+  width: 27%;
+  text-align: right;
+  margin-right: 3%;
+  margin-top: 5px; }
+
+#text label {
+  color: #444;
+ }  
 
 input, textarea {
-	width: 60%;
-	border: 2px solid #67972c;
-	font-size: 18px;
-	margin-bottom: 10px;
-	color: #555;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 3px;
-	clear: right;
+  width: 67%;	
+  border: 2px solid #67972c;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+  -moz-radius-border: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3px;
+  line-height: 22px; }
+
+#residentInfo label {
+  width: 40%;	
 }
+
+#residentInfo input, #residentInfo textarea {
+  width: 54%;	
+}
+
+input#_ctl0_contentPlaceHolderBody_ucApplication_chkBoxAgree {
+  width: 5%;
+  float: left;
+  margin-top: 10px; }
+
+.chkBoxAgree label {
+  text-align: left;}
+   
+#residentInfo select {
+  margin-top: 5px; }
+
+legend {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 15px; }
+
+fieldset {
+  padding-bottom: 15px; }
+  
+#sidebar input, #sidebar textarea {
+  border: none; }
 
 input.btn {
 	float: right;
-	width: 100px;
+	width: auto;
 	border: 0px;
 	background: #67972c;
-	font-size: 18px;
 	margin-bottom: 10px;
 	color: #fff;
-	padding: 5px 7px;
+	padding: 5px 20px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	cursor: pointer;
+	font-size: 16px;
+	margin-right: 8px;
+	font-weight: bold;
 }
+
+input.white {
+   background: #fff;
+   color: #67972c;
+	margin-right: 3px;
+}
+   
 #container {
 	width: 990px;
     min-height: 100%;
@@ -106,7 +147,6 @@ input.btn {
 #sidebar #photo .bottom {
 	background: url(../i/bg/sidebar-gray-bottom.gif);
 	height: 25px;
-	margin-bottom: 25px;
 }
 
 #sidebar #photo img {
@@ -146,6 +186,11 @@ input.btn {
 #testimonial .bottom {
 	background: url(../i/bg/testimonial-bottom.gif);
 	height: 47px;
+}
+
+#sidebar a {
+  color: #fff;
+  font-weight: bold; 
 }
 
 #sidebar #price .top {
@@ -249,7 +294,7 @@ input.btn {
 	font: 13px "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
-#footer .text {
+#footer .text, #footer .text a {
 	width: 960px;
 	color: #fff;
 	margin: 0 auto;
@@ -271,7 +316,7 @@ span.required{
 
 #header .nav {
 	width: 620px;
-	height: 58px;
+	height: 51px;
 	background: url(../i/bg/nav.gif) no-repeat;
 	position: relative;
 	top: 25px;
@@ -285,149 +330,172 @@ span.required{
 .nav li a:link, .nav li a:visited {
 	position: absolute;
 	top: 0;
-	height: 58px;
+	height: 51px;
 	text-indent: -9000px;
 	overflow: hidden;
 	z-index: 10;
 }
 	.nav .home a:link, .nav .home a:visited {
-		width: 130px;
+		width: 110px;
 	}
 	.nav .home a:hover, .nav .home a:focus {
-		background: url(../i/bg/nav.gif) no-repeat 0px -58px;
+		background: url(../i/bg/nav.gif) no-repeat 0px -51px;
 	}
 	.nav .home a:active {
-		background: url(../i/bg/../i/bg/nav.gif) no-repeat 0px -115px;
+		background: url(../i/bg/nav.gif) no-repeat 0px -102px;
 	}
 	.current-home .home a:link, .current-home .home a:visited {
-		background: url(../i/bg/nav.gif) no-repeat 0px -173px;
+		background: url(../i/bg/nav.gif) no-repeat 0px -153px;
 		cursor: default;
 	}
 	.nav-home, .nav-home-click {
 		position: absolute;
 		top: 0;
 		left: 0px;
-		width: 130px;
-		height: 58px;
-		background: url(../i/bg/nav.gif) no-repeat 0px -58px;
+		width: 110px;
+		height: 51px;
+		background: url(../i/bg/nav.gif) no-repeat 0px -51px;
 	}
 	.nav-home-click {
-		background: url(../i/bg/nav.gif) no-repeat 0px -115px;
+		background: url(../i/bg/nav.gif) no-repeat 0px -102px;
 	}
 
 
 
 	.nav .features a:link, .nav .features a:visited {
-		left: 130px;
-		width: 120px;
+		left: 110px;
+		width: 100px;
 	}
 	.nav .features a:hover, .nav .features a:focus {
-		background: url(../i/bg/nav.gif) no-repeat -130px -58px;
+		background: url(../i/bg/nav.gif) no-repeat -110px -51px;
 	}
 	.nav .features a:active {
-		background: url(../i/bg/nav.gif) no-repeat -130px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -110px -102px;
 	}
 	.current-features .features a:link, .current-features .features a:visited {
-		background: url(../i/bg/nav.gif) no-repeat -130px -173px;
+		background: url(../i/bg/nav.gif) no-repeat -110px -153px;
 		cursor: default;
 	}
 	.nav-features, .nav-features-click {
 		position: absolute;
 		top: 0;
-		left: 130px;
-		width: 120px;
-		height: 58px;
-		background: url(../i/bg/nav.gif) no-repeat -130px -58px;
+		left: 110px;
+		width: 100px;
+		height: 51px;
+		background: url(../i/bg/nav.gif) no-repeat -110px -51px;
 	}
 	.nav-features-click {
-		background: url(../i/bg/nav.gif) no-repeat -130px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -110px -102px;
 	}
-
 
 
 
 	.nav .gallery a:link, .nav .gallery a:visited {
-		left: 250px;
-		width: 120px;
+		left: 210px;
+		width: 100px;
 	}
 	.nav .gallery a:hover, .nav .gallery a:focus {
-		background: url(../i/bg/nav.gif) no-repeat -250px -58px;
+		background: url(../i/bg/nav.gif) no-repeat -210px -51px;
 	}
 	.nav .gallery a:active {
-		background: url(../i/bg/nav.gif) no-repeat -250px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -210px -102px;
 	}
 	.current-gallery .gallery a:link, .current-gallery .gallery a:visited {
-		background: url(../i/bg/nav.gif) no-repeat -250px -173px;
+		background: url(../i/bg/nav.gif) no-repeat -210px -153px;
 		cursor: default;
 	}
 	.nav-gallery, .nav-gallery-click {
 		position: absolute;
 		top: 0;
-		left: 250px;
-		width: 120px;
-		height: 58px;
-		background: url(../i/bg/nav.gif) no-repeat -250px -58px;
+		left: 210px;
+		width: 100px;
+		height: 51px;
+		background: url(../i/bg/nav.gif) no-repeat -210px -51px;
 	}
 	.nav-gallery-click {
-		background: url(../i/bg/nav.gif) no-repeat -250px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -210px -102px;
 	}
 
-
-	
 
 	.nav .location a:link, .nav .location a:visited {
-		left: 370px;
-		width: 120px;
+		left: 310px;
+		width: 100px;
 	}
 	.nav .location a:hover, .nav .location a:focus {
-		background: url(../i/bg/nav.gif) no-repeat -370px -58px;
+		background: url(../i/bg/nav.gif) no-repeat -310px -51px;
 	}
 	.nav .location a:active {
-		background: url(../i/bg/nav.gif) no-repeat -370px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -310px -102px;
 	}
 	.current-location .location a:link, .current-location .location a:visited {
-		background: url(../i/bg/nav.gif) no-repeat -370px -173px;
+		background: url(../i/bg/nav.gif) no-repeat -310px -153px;
 		cursor: default;
 	}
 	.nav-location, .nav-location-click {
 		position: absolute;
 		top: 0;
-		left: 370px;
-		width: 120px;
-		height: 58px;
-		background: url(../i/bg/nav.gif) no-repeat -370px -58px;
+		left: 310px;
+		width: 100px;
+		height: 51px;
+		background: url(../i/bg/nav.gif) no-repeat -310px -51px;
 	}
 	.nav-location-click {
-		background: url(../i/bg/nav.gif) no-repeat -370px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -310px -102px;
 	}
-
-
 
 
 	.nav .contact a:link, .nav .contact a:visited {
-		left: 490px;
-		width: 130px;
+		left: 410px;
+		width: 100px;
 	}
 	.nav .contact a:hover, .nav .contact a:focus {
-		background: url(../i/bg/nav.gif) no-repeat -490px -58px;
+		background: url(../i/bg/nav.gif) no-repeat -410px -51px;
 	}
 	.nav .contact a:active {
-		background: url(../i/bg/nav.gif) no-repeat -490px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -410px -102px;
 	}
 	.current-contact .contact a:link, .current-contact .contact a:visited {
-		background: url(../i/bg/nav.gif) no-repeat -490px -173px;
+		background: url(../i/bg/nav.gif) no-repeat -410px -153px;
 		cursor: default;
 	}
 	.nav-contact, .nav-contact-click {
 		position: absolute;
 		top: 0;
-		left: 490px;
-		width: 130px;
-		height: 58px;
-		background: url(../i/bg/nav.gif) no-repeat -490px -58px;
+		left: 410px;
+		width: 100px;
+		height: 51px;
+		background: url(../i/bg/nav.gif) no-repeat -410px -51px;
 	}
 	.nav-contact-click {
-		background: url(../i/bg/nav.gif) no-repeat -490px -115px;
+		background: url(../i/bg/nav.gif) no-repeat -410px -102px;
+	}
+
+
+
+	.nav .residents a:link, .nav .residents a:visited {
+		left: 510px;
+		width: 110px;
+	}
+	.nav .residents a:hover, .nav .residents a:focus {
+		background: url(../i/bg/nav.gif) no-repeat -510px -51px;
+	}
+	.nav .residents a:active {
+		background: url(../i/bg/nav.gif) no-repeat -510px -102px;
+	}
+	.current-residents .residents a:link, .current-residents .residents a:visited {
+		background: url(../i/bg/nav.gif) no-repeat -510px -153px;
+		cursor: default;
+	}
+	.nav-residents, .nav-residents-click {
+		position: absolute;
+		top: 0;
+		left: 510px;
+		width: 110px;
+		height: 51px;
+		background: url(../i/bg/nav.gif) no-repeat -510px -51px;
+	}
+	.nav-residents-click {
+		background: url(../i/bg/nav.gif) no-repeat -510px -102px;
 	}
 /* @group Fixes and hacks */
 .clear {

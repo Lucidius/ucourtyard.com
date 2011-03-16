@@ -5,3 +5,4 @@ server_port: 3000
 safe: true
 lsi: false
 pygments: true
+exclude: ucourtyard.esproj readme
